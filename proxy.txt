@@ -1,0 +1,6 @@
+import com.amazonaws.ClientConfiguration;
+
+ClientConfiguration clientConfiguration = new ClientConfiguration();
+clientConfiguration.setProtocol(Protocol.HTTPS);
+clientConfiguration.setProxyHost("url");
+clientConfiguration.setProxyPort(123);
